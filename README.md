@@ -20,4 +20,14 @@ Before using this script, ensure you have the following installed:
 You can capture network traffic and save it to a PCAP file using `tshark`. For example, to capture traffic on the `en0` interface and save it to `capture.pcap`, run the following command in your terminal:
 
 ```bash
+tshark -i en0 -w capture.pcap
+
+```
+
+### 2. Extract the cipher suites
+
+Run the following command in your terminal:
+
+```bash
 python3 ciphers_frm_pcap.py capture.pcap
+
