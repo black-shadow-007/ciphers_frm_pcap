@@ -4,7 +4,7 @@ Identifies client-side weak cipher suites and lists interacted servers from a PC
 
 ## Overview
 
-This script analyzes a packet capture (PCAP) file to identify the TLS/SSL cipher suites offered by clients during handshakes. Its primary goal is to help identify potentially **weak or outdated cipher suites** proposed by clients. Additionally, it extracts a list of the unique server names the clients interacted with. The analysis results are conveniently organized into an Excel file.
+This script analyzes a packet capture (PCAP) file to identify the TLS/SSL cipher suites offered by clients during handshakes. Its primary goal is to help identify potentially **weak or outdated cipher suites** proposed by apps/clients. Additionally, it extracts a list of the unique server names the clients interacted with. The analysis results are conveniently organized into an Excel file.
 
 ## Prerequisites
 
