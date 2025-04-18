@@ -29,5 +29,7 @@ tshark -i en0 -w capture.pcap
 Run the following command in your terminal:
 
 ```bash
-python3 ciphers_frm_pcap.py capture.pcap
+git clone https://github.com/black-shadow-007/ciphers_frm_pcap.git
+cd ciphers_frm_pcap
+python3 ciphers_frm_pcap.py /path/to/capture.pcap
 
